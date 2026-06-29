@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/cron/gyg-sync",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/cron/cleanup-portfolios",
+      "schedule": "0 3 * * *"
+    }
+  ]
+}
